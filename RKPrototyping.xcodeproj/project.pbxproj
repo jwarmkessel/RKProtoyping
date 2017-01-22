@@ -8,20 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		B82956671E331078006F2117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82956661E331078006F2117 /* AppDelegate.swift */; };
-		B82956691E331078006F2117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82956681E331078006F2117 /* ViewController.swift */; };
 		B829566C1E331078006F2117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B829566A1E331078006F2117 /* Main.storyboard */; };
 		B829566E1E331078006F2117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B829566D1E331078006F2117 /* Assets.xcassets */; };
 		B82956711E331078006F2117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B829566F1E331078006F2117 /* LaunchScreen.storyboard */; };
+		B82956821E3310DA006F2117 /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B829567F1E3310A9006F2117 /* ResearchKit.framework */; };
+		B829568F1E33FD4B006F2117 /* AAAwareBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B829568B1E33FD4B006F2117 /* AAAwareBaseViewController.swift */; };
+		B82956901E33FD4B006F2117 /* AASchoolingTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B829568C1E33FD4B006F2117 /* AASchoolingTaskViewController.swift */; };
+		B82956911E33FD4B006F2117 /* AAStressfulLifeExperiencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B829568D1E33FD4B006F2117 /* AAStressfulLifeExperiencesViewController.swift */; };
+		B82956921E33FD4B006F2117 /* AAYourBackgroundTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B829568E1E33FD4B006F2117 /* AAYourBackgroundTaskViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B829567E1E3310A9006F2117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82956781E3310A8006F2117 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B183A5951A8535D100C76870;
+			remoteInfo = ResearchKit;
+		};
+		B82956801E3310A9006F2117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B82956781E3310A8006F2117 /* ResearchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 86CC8E9A1AC09332001CCD89;
+			remoteInfo = ResearchKitTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B82956631E331078006F2117 /* RKPrototyping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKPrototyping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82956661E331078006F2117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B82956681E331078006F2117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B829566B1E331078006F2117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B829566D1E331078006F2117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B82956701E331078006F2117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B82956721E331078006F2117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82956781E3310A8006F2117 /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
+		B829568B1E33FD4B006F2117 /* AAAwareBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AAAwareBaseViewController.swift; path = Tasks/AAAwareBaseViewController.swift; sourceTree = "<group>"; };
+		B829568C1E33FD4B006F2117 /* AASchoolingTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AASchoolingTaskViewController.swift; path = Tasks/AASchoolingTaskViewController.swift; sourceTree = "<group>"; };
+		B829568D1E33FD4B006F2117 /* AAStressfulLifeExperiencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AAStressfulLifeExperiencesViewController.swift; path = Tasks/AAStressfulLifeExperiencesViewController.swift; sourceTree = "<group>"; };
+		B829568E1E33FD4B006F2117 /* AAYourBackgroundTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AAYourBackgroundTaskViewController.swift; path = Tasks/AAYourBackgroundTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B82956821E3310DA006F2117 /* ResearchKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +64,7 @@
 		B829565A1E331078006F2117 = {
 			isa = PBXGroup;
 			children = (
+				B82956781E3310A8006F2117 /* ResearchKit.xcodeproj */,
 				B82956651E331078006F2117 /* RKPrototyping */,
 				B82956641E331078006F2117 /* Products */,
 			);
@@ -55,13 +82,49 @@
 			isa = PBXGroup;
 			children = (
 				B82956661E331078006F2117 /* AppDelegate.swift */,
-				B82956681E331078006F2117 /* ViewController.swift */,
-				B829566A1E331078006F2117 /* Main.storyboard */,
-				B829566D1E331078006F2117 /* Assets.xcassets */,
-				B829566F1E331078006F2117 /* LaunchScreen.storyboard */,
-				B82956721E331078006F2117 /* Info.plist */,
+				B82956941E33FDC5006F2117 /* Resources */,
+				B82956931E33FDA2006F2117 /* User Interfaces */,
+				B829568A1E33FD42006F2117 /* Tasks */,
 			);
 			path = RKPrototyping;
+			sourceTree = "<group>";
+		};
+		B82956791E3310A8006F2117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B829567F1E3310A9006F2117 /* ResearchKit.framework */,
+				B82956811E3310A9006F2117 /* ResearchKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B829568A1E33FD42006F2117 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				B829568B1E33FD4B006F2117 /* AAAwareBaseViewController.swift */,
+				B829568C1E33FD4B006F2117 /* AASchoolingTaskViewController.swift */,
+				B829568D1E33FD4B006F2117 /* AAStressfulLifeExperiencesViewController.swift */,
+				B829568E1E33FD4B006F2117 /* AAYourBackgroundTaskViewController.swift */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		B82956931E33FDA2006F2117 /* User Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				B829566A1E331078006F2117 /* Main.storyboard */,
+				B829566F1E331078006F2117 /* LaunchScreen.storyboard */,
+			);
+			name = "User Interfaces";
+			sourceTree = "<group>";
+		};
+		B82956941E33FDC5006F2117 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B829566D1E331078006F2117 /* Assets.xcassets */,
+				B82956721E331078006F2117 /* Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,12 +175,35 @@
 			mainGroup = B829565A1E331078006F2117;
 			productRefGroup = B82956641E331078006F2117 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B82956791E3310A8006F2117 /* Products */;
+					ProjectRef = B82956781E3310A8006F2117 /* ResearchKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B82956621E331078006F2117 /* RKPrototyping */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B829567F1E3310A9006F2117 /* ResearchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ResearchKit.framework;
+			remoteRef = B829567E1E3310A9006F2117 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B82956811E3310A9006F2117 /* ResearchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ResearchKitTests.xctest;
+			remoteRef = B82956801E3310A9006F2117 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B82956611E331078006F2117 /* Resources */ = {
@@ -137,8 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B82956691E331078006F2117 /* ViewController.swift in Sources */,
+				B829568F1E33FD4B006F2117 /* AAAwareBaseViewController.swift in Sources */,
 				B82956671E331078006F2117 /* AppDelegate.swift in Sources */,
+				B82956911E33FD4B006F2117 /* AAStressfulLifeExperiencesViewController.swift in Sources */,
+				B82956921E33FD4B006F2117 /* AAYourBackgroundTaskViewController.swift in Sources */,
+				B82956901E33FD4B006F2117 /* AASchoolingTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +389,7 @@
 				B82956771E331078006F2117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
